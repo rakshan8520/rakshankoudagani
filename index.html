@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lustria:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="desktop-container">
+        <div class="desktop-desktop">
+          <div class="desktop-frame1">
+            <div class="desktop-group1">
+              <div class="desktop-group1000007775">
+                <img
+                  src="public/external/vector117-pb87.svg"
+                  alt="Vector117"
+                  class="desktop-vector10"
+                />
+                <img
+                  src="public/external/vector118-064.svg"
+                  alt="Vector118"
+                  class="desktop-vector11"
+                />
+                <img
+                  src="public/external/vector119-g4lia.svg"
+                  alt="Vector119"
+                  class="desktop-vector12"
+                />
+                <img
+                  src="public/external/vector120-1db9.svg"
+                  alt="Vector120"
+                  class="desktop-vector13"
+                />
+                <img
+                  src="public/external/vector121-i1ic.svg"
+                  alt="Vector121"
+                  class="desktop-vector14"
+                />
+              </div>
+              <div class="desktop-group1000007776">
+                <img
+                  src="public/external/vector123-b7h.svg"
+                  alt="Vector123"
+                  class="desktop-vector15"
+                />
+                <img
+                  src="public/external/vector124-l1.svg"
+                  alt="Vector124"
+                  class="desktop-vector16"
+                />
+                <img
+                  src="public/external/vector125-257n.svg"
+                  alt="Vector125"
+                  class="desktop-vector17"
+                />
+                <img
+                  src="public/external/vector126-t2yb.svg"
+                  alt="Vector126"
+                  class="desktop-vector18"
+                />
+                <img
+                  src="public/external/vector127-s99.svg"
+                  alt="Vector127"
+                  class="desktop-vector19"
+                />
+              </div>
+            </div>
+            <span class="desktop-text1">
+              Find the ideal gift for your loved ones.
+            </span>
+            <div class="desktop-group2">
+              <img
+                src="public/external/rectangle26035i129-5wka-200h.png"
+                alt="Rectangle26035I129"
+                class="desktop-rectangle260351"
+              />
+              <img
+                src="public/external/line15i129-aq2n.svg"
+                alt="Line15I129"
+                class="desktop-line151"
+              />
+              <span class="desktop-text2">choose gift</span>
+              <img
+                src="public/external/rectangle26036i129-zln-200h.png"
+                alt="Rectangle26036I129"
+                class="desktop-rectangle260361"
+              />
+            </div>
+          </div>
+          <div class="desktop-frame1957">
+            <span class="desktop-text3">
+              SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL
+            </span>
+          </div>
+          <div class="desktop-f">
+            <span class="desktop-text4">Tisso vison in the wild</span>
+            <div class="desktop-frame1000009723">
+              <div class="desktop-group1000008178">
+                <img
+                  src="public/external/image8221145-7l3c-500w.png"
+                  alt="image8221145"
+                  class="desktop-image822"
+                />
+                <div class="desktop-group1000008190">
+                  <img
+                    src="public/external/ellipse4511147-nlhj-200h.png"
+                    alt="Ellipse4511147"
+                    class="desktop-ellipse4511"
+                  />
+                  <div class="desktop-group10000081341">
+                    <img
+                      src="public/external/vector1149-4x79.svg"
+                      alt="Vector1149"
+                      class="desktop-vector20"
+                    />
+                    <img
+                      src="public/external/vector1150-q6ph.svg"
+                      alt="Vector1150"
+                      class="desktop-vector21"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-group10000081741">
+                <img
+                  src="public/external/image8231152-gcr-500w.png"
+                  alt="image8231152"
+                  class="desktop-image823"
+                />
+                <div class="desktop-group1000008185">
+                  <img
+                    src="public/external/ellipse4511154-ube-200h.png"
+                    alt="Ellipse4511154"
+                    class="desktop-ellipse4512"
+                  />
+                  <div class="desktop-group10000081342">
+                    <img
+                      src="public/external/vector1156-v8vj.svg"
+                      alt="Vector1156"
+                      class="desktop-vector22"
+                    />
+                    <img
+                      src="public/external/vector1157-dmm.svg"
+                      alt="Vector1157"
+                      class="desktop-vector23"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-group10000081742">
+                <img
+                  src="public/external/image8241159-k769-500w.png"
+                  alt="image8241159"
+                  class="desktop-image824"
+                />
+                <div class="desktop-group1000008186">
+                  <img
+                    src="public/external/ellipse4511161-f9ol-200h.png"
+                    alt="Ellipse4511161"
+                    class="desktop-ellipse4513"
+                  />
+                  <div class="desktop-group10000081343">
+                    <img
+                      src="public/external/vector1163-g17d.svg"
+                      alt="Vector1163"
+                      class="desktop-vector24"
+                    />
+                    <img
+                      src="public/external/vector1164-9q1.svg"
+                      alt="Vector1164"
+                      class="desktop-vector25"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-group1000008177">
+                <img
+                  src="public/external/image8251166-41m-500w.png"
+                  alt="image8251166"
+                  class="desktop-image825"
+                />
+                <div class="desktop-group1000008188">
+                  <img
+                    src="public/external/ellipse4511168-xev-200h.png"
+                    alt="Ellipse4511168"
+                    class="desktop-ellipse4514"
+                  />
+                  <div class="desktop-group10000081344">
+                    <img
+                      src="public/external/vector1170-noo.svg"
+                      alt="Vector1170"
+                      class="desktop-vector26"
+                    />
+                    <img
+                      src="public/external/vector1171-k5rjd.svg"
+                      alt="Vector1171"
+                      class="desktop-vector27"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-group1000008175">
+                <img
+                  src="public/external/image8261173-wlp93s-500w.png"
+                  alt="image8261173"
+                  class="desktop-image826"
+                />
+                <div class="desktop-group1000008189">
+                  <img
+                    src="public/external/ellipse4511175-nkfh-200h.png"
+                    alt="Ellipse4511175"
+                    class="desktop-ellipse4515"
+                  />
+                  <div class="desktop-group10000081345">
+                    <img
+                      src="public/external/vector1177-6tco.svg"
+                      alt="Vector1177"
+                      class="desktop-vector28"
+                    />
+                    <img
+                      src="public/external/vector1178-oqsp.svg"
+                      alt="Vector1178"
+                      class="desktop-vector29"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-group1000008176">
+                <img
+                  src="public/external/image8271180-uxke-500w.png"
+                  alt="image8271180"
+                  class="desktop-image827"
+                />
+                <div class="desktop-group1000008187">
+                  <img
+                    src="public/external/ellipse4511182-9vkr-200h.png"
+                    alt="Ellipse4511182"
+                    class="desktop-ellipse4516"
+                  />
+                  <div class="desktop-group10000081346">
+                    <img
+                      src="public/external/vector1184-ndq2.svg"
+                      alt="Vector1184"
+                      class="desktop-vector30"
+                    />
+                    <img
+                      src="public/external/vector1185-9xx.svg"
+                      alt="Vector1185"
+                      class="desktop-vector31"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="desktop-group3">
+              <img
+                src="public/external/vector9503-nnir.svg"
+                alt="Vector9503"
+                class="desktop-vector32"
+              />
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle261675189-wp7-800h.png"
+            alt="Rectangle261675189"
+            class="desktop-rectangle26167"
+          />
+          <div class="desktop-component207">
+            <img
+              src="public/external/rectangle26035i535-f1jg-200h.png"
+              alt="Rectangle26035I535"
+              class="desktop-rectangle260352"
+            />
+            <img
+              src="public/external/line15i535-vhl.svg"
+              alt="Line15I535"
+              class="desktop-line152"
+            />
+            <span class="desktop-text5">Shop Now</span>
+            <img
+              src="public/external/rectangle26036i535-lscv-200h.png"
+              alt="Rectangle26036I535"
+              class="desktop-rectangle260362"
+            />
+          </div>
+          <span class="desktop-text6">
+            Discover Joy: Your Ultimate Holiday Gift Destination. Explore our
+            curated selection and find the perfect gifts to delight your loved
+            ones this holiday season.
+          </span>
+          <span class="desktop-text7">The Gift Guide</span>
+          <img
+            src="public/external/frame5311-now.svg"
+            alt="Frame5311"
+            class="desktop-frame2"
+          />
+          <img
+            src="public/external/frame5191-e7d.svg"
+            alt="Frame5191"
+            class="desktop-frame3"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
